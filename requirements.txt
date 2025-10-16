@@ -1,0 +1,7 @@
+# Core LLM client
+openai>=1.13.3
+
+# Data sources & search backends
+pymysql>=1.1.0
+elasticsearch>=8.12.0
+pymilvus>=2.3.4

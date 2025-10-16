@@ -1,0 +1,19 @@
+# Copy this file to model_config.py and fill in your own API keys/base URLs.
+# Do NOT commit real credentials to version control.
+
+MODEL_CONFIG = {
+    "zhipu": {
+        "glm-4.6": {
+            "model": "glm-4.6",
+            "api_key": "your-zhipu-api-key",
+            "base_url": "https://open.bigmodel.cn/api/paas/v4/"
+        }
+    },
+    "deepseek": {
+        "deepseek-reasoner": {
+            "model": "deepseek-reasoner",
+            "api_key": "your-deepseek-api-key",
+            "base_url": "https://api.deepseek.com"
+        }
+    }
+}
